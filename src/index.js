@@ -15,6 +15,7 @@ import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -96,12 +97,22 @@ import SignUp from './chapter_11/SignUp';
 
     //chapter_11/SignUp
     //form태그 사용하여 사용자 정보 입력 받기
+    // const root = ReactDOM.createRoot(document.getElementById('root'));
+    // root.render(
+    //   <React.StrictMode>
+    //     <SignUp />
+    //   </React.StrictMode>
+    // );
+
+    //chapter_12/Calculator
+    //form태그 사용하여 사용자 정보 입력 받기
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-        <SignUp />
+        <Calculator />
       </React.StrictMode>
     );
+
 
 
 // If you want to start measuring performance in your app, pass a function
